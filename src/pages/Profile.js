@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, Paper, TextField, Avatar, Divider } from '@mui/material';
-import { ArrowBack, Person, Save } from '@mui/icons-material';
+import { ArrowBack, Save } from '@mui/icons-material';
 import { supabase } from '../supabaseClient';
 import { useNavigate } from 'react-router-dom';
 

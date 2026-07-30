@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, Paper, Grid, Dialog, DialogTitle, DialogContent, DialogActions, TextField, MenuItem, LinearProgress } from '@mui/material';
-import { Add, FolderOpen, ArrowBack, Download, Upload } from '@mui/icons-material';
+import { FolderOpen, ArrowBack, Download, Upload } from '@mui/icons-material';
 import { supabase } from '../supabaseClient';
 import { useNavigate } from 'react-router-dom';
 

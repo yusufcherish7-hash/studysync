@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, Button, Paper, TextField, Grid, Dialog, DialogTitle, DialogContent, DialogActions, MenuItem, Chip } from '@mui/material';
+import { Box, Typography, Button, Paper, TextField, Grid, Dialog, DialogTitle, DialogContent, DialogActions, MenuItem } from '@mui/material';
 import { Add, CalendarMonth, ArrowBack, LocationOn, AccessTime } from '@mui/icons-material';
 import { supabase } from '../supabaseClient';
 import { useNavigate } from 'react-router-dom';
